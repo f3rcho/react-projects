@@ -11,7 +11,7 @@ function App () {
     const fields = Object.fromEntries(
       new window.FormData(event.target)
     )
-    console.log(fields);
+    console.log(fields)
   }
   return (
     <div className='page'>

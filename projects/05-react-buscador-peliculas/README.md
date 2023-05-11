@@ -9,3 +9,6 @@ React controla que se escribe en los inputs, validaciones. Este se realize a tra
 
 **## useMemo**
 Memoizar computaciones queremos evitar que se hagan a no ser que cambien las dependencias. Tambien funciona con funciones como en getMovies
+
+**## useCallback**
+Es igual al useMemo pero pensado para las funciones. Simplifica la sintaxis

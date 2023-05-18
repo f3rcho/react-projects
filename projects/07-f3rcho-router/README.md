@@ -6,6 +6,8 @@ add this to index.html
 ## Tips
 - there not native way to listen the pushstate event. To navigate forward.
 - One hint to know if It is an SPA is that the favicon does not reload when changing between pages
+- Popstate it's the event when the navigator goes back (windows.history.back)
+- Pushstate it's the event when the navigator goes forward
 
 
 # Crea un React Router desde cero
@@ -13,7 +15,7 @@ add this to index.html
 - [x] Instalar el linter
 - [x] Crear una forma de hacer MPAs (Multiple Page Application)
 - [x] Crea una forma de hacer SPAs (Single Page Applications)
-- [] Poder navegar entre páginas con el botón de atrás
+- [x] Poder navegar entre páginas con el botón de atrás
 - [] Crear componente Link para hacerlo declarativo
 - [] Crear componente Router para hacerlo más declarativo
 - [] Soportar ruta por defecto (404)

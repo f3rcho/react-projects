@@ -1,3 +1,5 @@
+import { Link } from '../components/Link'
+
 export default function AboutPage () {
   return (
     <>
@@ -7,7 +9,7 @@ export default function AboutPage () {
         <p>Hello, I'm Fernando and I'm creating a clon of react router</p>
       </div>
       {/* for intance to simplify we use the button  */}
-      <button onClick={() => navigate('/')}>Go to Home Page</button>
+      <Link to='/'> Go to Home Page</Link>
     </>
   )
 }

@@ -9,6 +9,7 @@ add this to index.html
 - Popstate it's the event when the navigator goes back (windows.history.back)
 - Pushstate it's the event when the navigator goes forward
 
+Imports path-to-regex for dynamics routes
 
 # Crea un React Router desde cero
 

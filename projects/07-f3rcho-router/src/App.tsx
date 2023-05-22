@@ -4,8 +4,9 @@ import { Router } from './components/Router'
 import AboutPage from './pages/About'
 import HomePage from './pages/Home.jsx'
 import Page404 from './pages/404'
+import SearchPage from './pages/Search'
 
-const routes = [
+const appRoutes = [
   {
     path: '/',
     component: HomePage
@@ -13,13 +14,17 @@ const routes = [
   {
     path: '/about',
     component: AboutPage
+  },
+  {
+    path: '/search/:query',
+    component: SearchPage
   }
 ]
 
 function App () {
   return (
     <main>
-      <Router routes={routes} defaultComponent={Page404} />
+      <Router routes={appRoutes} defaultComponent={Page404} />
     </main>
   )
 }
